@@ -1,0 +1,101 @@
+/*
+Theme Name: WPNewsTheme
+Text Domain: wpnewstheme
+Version: 1.0
+Requires at least: 4.5.2
+Requires PHP: 5.2.4
+Description: A newsy theme built using the INK Framework as part of a course on Eduonix.com, courtesy of Brad Traversy of Traversy Media.
+Author: Fionn Ross
+Author URI: https://fionnrossonline.com/
+Theme URI: https://github.com/rossfion/wpnewstheme/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+.meta {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-bottom: 3px #666 solid;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+.sidebar {
+    padding-left: 25px;
+}
+
+.sidebar li {
+    list-style: none;
+    line-height: 2.2em;
+    border-bottom: 1px #ccc solid;
+}
+
+.side-widget {
+    margin-bottom: 25px;
+}
+
+.comments {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.comments h2,
+.comments h3 {
+    background: #f4f4f4;
+    color: #333;
+    padding: 5px;
+}
+
+.comment-body {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+
+.comment-meta {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    overflow: auto;
+}
+
+.comment-meta img {
+    float: left;
+    margin-right: 10px;
+}
+
+.comment-meta time {
+    margin-left: 12px;
+}
+
+.comment-reply-link {
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.current_page_item,
+.current-cat{
+    font-weight: bold;
+}
